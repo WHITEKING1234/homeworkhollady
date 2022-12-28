@@ -16,6 +16,13 @@
 		0487A472295B846600BDD950 /* homeworkholladyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A471295B846600BDD950 /* homeworkholladyTests.swift */; };
 		0487A47C295B846700BDD950 /* homeworkholladyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A47B295B846700BDD950 /* homeworkholladyUITests.swift */; };
 		0487A47E295B846700BDD950 /* homeworkholladyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A47D295B846700BDD950 /* homeworkholladyUITestsLaunchTests.swift */; };
+		0487A48C295B85D300BDD950 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A48B295B85D300BDD950 /* Module.swift */; };
+		0487A48E295B85E100BDD950 /* Controler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A48D295B85E100BDD950 /* Controler.swift */; };
+		0487A492295B8D0D00BDD950 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A491295B8D0D00BDD950 /* user.swift */; };
+		0487A494295B9CB200BDD950 /* 2 vie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A493295B9CB200BDD950 /* 2 vie.swift */; };
+		3D84B61576715C7925E35BE3 /* Pods_homeworkholladyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08204DB6FC3F6E05E5E1B151 /* Pods_homeworkholladyTests.framework */; };
+		AB88F7069B259512ADAC4688 /* Pods_homeworkhollady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072627EF8FF18DC88B4D370B /* Pods_homeworkhollady.framework */; };
+		FD0A042B83BC9039214F620B /* Pods_homeworkhollady_homeworkholladyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0245374CB21E056BA32AAC5E /* Pods_homeworkhollady_homeworkholladyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0245374CB21E056BA32AAC5E /* Pods_homeworkhollady_homeworkholladyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homeworkhollady_homeworkholladyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0487A457295B846300BDD950 /* homeworkhollady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeworkhollady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0487A45A295B846300BDD950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0487A45C295B846300BDD950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		0487A477295B846700BDD950 /* homeworkholladyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeworkholladyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0487A47B295B846700BDD950 /* homeworkholladyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkholladyUITests.swift; sourceTree = "<group>"; };
 		0487A47D295B846700BDD950 /* homeworkholladyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkholladyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0487A48B295B85D300BDD950 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		0487A48D295B85E100BDD950 /* Controler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controler.swift; sourceTree = "<group>"; };
+		0487A491295B8D0D00BDD950 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		0487A493295B9CB200BDD950 /* 2 vie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 vie.swift"; sourceTree = "<group>"; };
+		072627EF8FF18DC88B4D370B /* Pods_homeworkhollady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homeworkhollady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08204DB6FC3F6E05E5E1B151 /* Pods_homeworkholladyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homeworkholladyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B59609585D22C3500EEDC56 /* Pods-homeworkholladyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkholladyTests.debug.xcconfig"; path = "Target Support Files/Pods-homeworkholladyTests/Pods-homeworkholladyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5461439FF746B2F289B4F3 /* Pods-homeworkhollady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkhollady.debug.xcconfig"; path = "Target Support Files/Pods-homeworkhollady/Pods-homeworkhollady.debug.xcconfig"; sourceTree = "<group>"; };
+		95C996E6529DE5B0C6B57558 /* Pods-homeworkholladyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkholladyTests.release.xcconfig"; path = "Target Support Files/Pods-homeworkholladyTests/Pods-homeworkholladyTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAC67E7ABC9ECF61BE31402B /* Pods-homeworkhollady-homeworkholladyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkhollady-homeworkholladyUITests.debug.xcconfig"; path = "Target Support Files/Pods-homeworkhollady-homeworkholladyUITests/Pods-homeworkhollady-homeworkholladyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF6FC4BA63BF684B2146FB91 /* Pods-homeworkhollady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkhollady.release.xcconfig"; path = "Target Support Files/Pods-homeworkhollady/Pods-homeworkhollady.release.xcconfig"; sourceTree = "<group>"; };
+		E8F3FD183A8F4C598FFD3CCD /* Pods-homeworkhollady-homeworkholladyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkhollady-homeworkholladyUITests.release.xcconfig"; path = "Target Support Files/Pods-homeworkhollady-homeworkholladyUITests/Pods-homeworkhollady-homeworkholladyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB88F7069B259512ADAC4688 /* Pods_homeworkhollady.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D84B61576715C7925E35BE3 /* Pods_homeworkholladyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0A042B83BC9039214F620B /* Pods_homeworkhollady_homeworkholladyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				0487A470295B846600BDD950 /* homeworkholladyTests */,
 				0487A47A295B846700BDD950 /* homeworkholladyUITests */,
 				0487A458295B846300BDD950 /* Products */,
+				59FA6BA78E6A2064E03C76DC /* Pods */,
+				16F29F30199547262D0F43CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +124,15 @@
 		0487A459295B846300BDD950 /* homeworkhollady */ = {
 			isa = PBXGroup;
 			children = (
+				0487A48A295B84E500BDD950 /* mvc */,
 				0487A45A295B846300BDD950 /* AppDelegate.swift */,
 				0487A45C295B846300BDD950 /* SceneDelegate.swift */,
-				0487A45E295B846300BDD950 /* ViewController.swift */,
 				0487A460295B846300BDD950 /* Main.storyboard */,
 				0487A463295B846600BDD950 /* Assets.xcassets */,
 				0487A465295B846600BDD950 /* LaunchScreen.storyboard */,
 				0487A468295B846600BDD950 /* Info.plist */,
+				0487A491295B8D0D00BDD950 /* user.swift */,
+				0487A493295B9CB200BDD950 /* 2 vie.swift */,
 			);
 			path = homeworkhollady;
 			sourceTree = "<group>";
@@ -127,6 +154,39 @@
 			path = homeworkholladyUITests;
 			sourceTree = "<group>";
 		};
+		0487A48A295B84E500BDD950 /* mvc */ = {
+			isa = PBXGroup;
+			children = (
+				0487A45E295B846300BDD950 /* ViewController.swift */,
+				0487A48B295B85D300BDD950 /* Module.swift */,
+				0487A48D295B85E100BDD950 /* Controler.swift */,
+			);
+			path = mvc;
+			sourceTree = "<group>";
+		};
+		16F29F30199547262D0F43CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				072627EF8FF18DC88B4D370B /* Pods_homeworkhollady.framework */,
+				0245374CB21E056BA32AAC5E /* Pods_homeworkhollady_homeworkholladyUITests.framework */,
+				08204DB6FC3F6E05E5E1B151 /* Pods_homeworkholladyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59FA6BA78E6A2064E03C76DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E5461439FF746B2F289B4F3 /* Pods-homeworkhollady.debug.xcconfig */,
+				CF6FC4BA63BF684B2146FB91 /* Pods-homeworkhollady.release.xcconfig */,
+				BAC67E7ABC9ECF61BE31402B /* Pods-homeworkhollady-homeworkholladyUITests.debug.xcconfig */,
+				E8F3FD183A8F4C598FFD3CCD /* Pods-homeworkhollady-homeworkholladyUITests.release.xcconfig */,
+				0B59609585D22C3500EEDC56 /* Pods-homeworkholladyTests.debug.xcconfig */,
+				95C996E6529DE5B0C6B57558 /* Pods-homeworkholladyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0487A481295B846700BDD950 /* Build configuration list for PBXNativeTarget "homeworkhollady" */;
 			buildPhases = (
+				89B81037CCB2CCFD29ACFD89 /* [CP] Check Pods Manifest.lock */,
 				0487A453295B846300BDD950 /* Sources */,
 				0487A454295B846300BDD950 /* Frameworks */,
 				0487A455295B846300BDD950 /* Resources */,
+				5481633B466314A3199D1F63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0487A484295B846700BDD950 /* Build configuration list for PBXNativeTarget "homeworkholladyTests" */;
 			buildPhases = (
+				4B2D4DE7DCD48C83B246081A /* [CP] Check Pods Manifest.lock */,
 				0487A469295B846600BDD950 /* Sources */,
 				0487A46A295B846600BDD950 /* Frameworks */,
 				0487A46B295B846600BDD950 /* Resources */,
@@ -169,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0487A487295B846700BDD950 /* Build configuration list for PBXNativeTarget "homeworkholladyUITests" */;
 			buildPhases = (
+				041079F6B6AFB89B79D93BFC /* [CP] Check Pods Manifest.lock */,
 				0487A473295B846700BDD950 /* Sources */,
 				0487A474295B846700BDD950 /* Frameworks */,
 				0487A475295B846700BDD950 /* Resources */,
+				FB4F0C67490BE09C670E4CFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +318,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041079F6B6AFB89B79D93BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-homeworkhollady-homeworkholladyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2D4DE7DCD48C83B246081A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-homeworkholladyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5481633B466314A3199D1F63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-homeworkhollady/Pods-homeworkhollady-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-homeworkhollady/Pods-homeworkhollady-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeworkhollady/Pods-homeworkhollady-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B81037CCB2CCFD29ACFD89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-homeworkhollady-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4F0C67490BE09C670E4CFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-homeworkhollady-homeworkholladyUITests/Pods-homeworkhollady-homeworkholladyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-homeworkhollady-homeworkholladyUITests/Pods-homeworkhollady-homeworkholladyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-homeworkhollady-homeworkholladyUITests/Pods-homeworkhollady-homeworkholladyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0487A453295B846300BDD950 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0487A45F295B846300BDD950 /* ViewController.swift in Sources */,
+				0487A48E295B85E100BDD950 /* Controler.swift in Sources */,
+				0487A494295B9CB200BDD950 /* 2 vie.swift in Sources */,
+				0487A48C295B85D300BDD950 /* Module.swift in Sources */,
+				0487A492295B8D0D00BDD950 /* user.swift in Sources */,
 				0487A45B295B846300BDD950 /* AppDelegate.swift in Sources */,
 				0487A45D295B846300BDD950 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +604,7 @@
 		};
 		0487A482295B846700BDD950 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5461439FF746B2F289B4F3 /* Pods-homeworkhollady.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +633,7 @@
 		};
 		0487A483295B846700BDD950 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6FC4BA63BF684B2146FB91 /* Pods-homeworkhollady.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +662,7 @@
 		};
 		0487A485295B846700BDD950 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B59609585D22C3500EEDC56 /* Pods-homeworkholladyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +683,7 @@
 		};
 		0487A486295B846700BDD950 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C996E6529DE5B0C6B57558 /* Pods-homeworkholladyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +704,7 @@
 		};
 		0487A488295B846700BDD950 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC67E7ABC9ECF61BE31402B /* Pods-homeworkhollady-homeworkholladyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +723,7 @@
 		};
 		0487A489295B846700BDD950 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F3FD183A8F4C598FFD3CCD /* Pods-homeworkhollady-homeworkholladyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
