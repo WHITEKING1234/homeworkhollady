@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var pass = UITextField()
     var button = UIButton(type: .system)
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         controler = AutoController(view: self)
@@ -71,20 +70,21 @@ class ViewController: UIViewController {
     @objc func button12(){
         let authAnsver =  controler?.getuserInfo(username: username.text!, pass: pass.text!)
         if authAnsver == true{
-            navigationController!.pushViewController(View2(), animated: true)
+            let seconVC = View2()
+            seconVC.username23.text = username.text
+            navigationController?.pushViewController(seconVC, animated: true)
         }else{
             print("No")
-        }
-    }
-    @IBAction func button (_ sender: Any) {
             let bb = UIAlertController(title: "Oшибка", message: "Данные ввидены не правельно попробуйте еще раз", preferredStyle: .alert)
             let button2 = UIAlertAction(title: "OK", style:.cancel)
             bb.addAction(button2)
                           present(bb, animated: true, completion: nil)
-            
 
-            
         }
+    }
+        
+
+}
 //                    var isFounded: Bool = false
 //
 //        let currentUser = User(username: username.text!, pass: pass.text!)
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
 //                    }else{
 //                        print("Неверные данные")
                     
-            }
+            
         
 
     

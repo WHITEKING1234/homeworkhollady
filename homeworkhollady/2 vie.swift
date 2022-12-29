@@ -15,7 +15,6 @@ class View2:UIViewController{
         ad22()
     }
     func ad22(){
-        username23.text = "User"
         username23.font = UIFont.systemFont(ofSize: 30,weight: .bold)
         view.backgroundColor = .white
         view.addSubview(username23)
@@ -27,3 +26,4 @@ class View2:UIViewController{
         }
     }
 }
+

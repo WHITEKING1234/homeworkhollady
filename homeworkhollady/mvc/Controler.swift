@@ -12,15 +12,20 @@ class AutoController{
     init(view: ViewController) {
         self.view = view
         self.model = AutoModel(controller: self)
-       
+        
     }
-    func getuserInfo (username:String,pass:String) -> Bool{
+    func getuserInfo (username:String,pass:String) -> Bool {
         
         let authAnsver = model.chekpic(username: username, pass: pass)
         if authAnsver == true{
-            return true
-        }else{
-            return false
-        }
-    }
-}
+
+
+                        return true
+                    }else{
+                        return false
+                    }
+                }
+            }
+            
+
+
