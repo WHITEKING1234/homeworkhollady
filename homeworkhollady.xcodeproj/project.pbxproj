@@ -21,6 +21,8 @@
 		0487A492295B8D0D00BDD950 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A491295B8D0D00BDD950 /* user.swift */; };
 		0487A494295B9CB200BDD950 /* 2 vie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A493295B9CB200BDD950 /* 2 vie.swift */; };
 		0487A496295C57B200BDD950 /* berr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A495295C57B200BDD950 /* berr.swift */; };
+		0487A498295D99A200BDD950 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A497295D99A200BDD950 /* Network.swift */; };
+		0487A49A295DCF1000BDD950 /* berrdiscripshon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A499295DCF1000BDD950 /* berrdiscripshon.swift */; };
 		3D84B61576715C7925E35BE3 /* Pods_homeworkholladyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08204DB6FC3F6E05E5E1B151 /* Pods_homeworkholladyTests.framework */; };
 		AB88F7069B259512ADAC4688 /* Pods_homeworkhollady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072627EF8FF18DC88B4D370B /* Pods_homeworkhollady.framework */; };
 		FD0A042B83BC9039214F620B /* Pods_homeworkhollady_homeworkholladyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0245374CB21E056BA32AAC5E /* Pods_homeworkhollady_homeworkholladyUITests.framework */; };
@@ -63,6 +65,8 @@
 		0487A491295B8D0D00BDD950 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 		0487A493295B9CB200BDD950 /* 2 vie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2 vie.swift"; sourceTree = "<group>"; };
 		0487A495295C57B200BDD950 /* berr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = berr.swift; sourceTree = "<group>"; };
+		0487A497295D99A200BDD950 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0487A499295DCF1000BDD950 /* berrdiscripshon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = berrdiscripshon.swift; sourceTree = "<group>"; };
 		072627EF8FF18DC88B4D370B /* Pods_homeworkhollady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homeworkhollady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08204DB6FC3F6E05E5E1B151 /* Pods_homeworkholladyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homeworkholladyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B59609585D22C3500EEDC56 /* Pods-homeworkholladyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeworkholladyTests.debug.xcconfig"; path = "Target Support Files/Pods-homeworkholladyTests/Pods-homeworkholladyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				0487A491295B8D0D00BDD950 /* user.swift */,
 				0487A493295B9CB200BDD950 /* 2 vie.swift */,
 				0487A495295C57B200BDD950 /* berr.swift */,
+				0487A497295D99A200BDD950 /* Network.swift */,
+				0487A499295DCF1000BDD950 /* berrdiscripshon.swift */,
 			);
 			path = homeworkhollady;
 			sourceTree = "<group>";
@@ -434,9 +440,11 @@
 				0487A48E295B85E100BDD950 /* Controler.swift in Sources */,
 				0487A494295B9CB200BDD950 /* 2 vie.swift in Sources */,
 				0487A48C295B85D300BDD950 /* Module.swift in Sources */,
+				0487A498295D99A200BDD950 /* Network.swift in Sources */,
 				0487A492295B8D0D00BDD950 /* user.swift in Sources */,
 				0487A45B295B846300BDD950 /* AppDelegate.swift in Sources */,
 				0487A45D295B846300BDD950 /* SceneDelegate.swift in Sources */,
+				0487A49A295DCF1000BDD950 /* berrdiscripshon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

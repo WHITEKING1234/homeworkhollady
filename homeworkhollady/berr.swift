@@ -8,5 +8,6 @@
 import Foundation
 struct Beer:Codable{
 
-    
+    var name:String
+    var dis:String
 }
